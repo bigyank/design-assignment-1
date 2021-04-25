@@ -118,3 +118,84 @@ a:hover {
 }
 
 /* navbar end */
+
+/* aside start */
+.left-content,
+.right-content {
+  background-color: whitesmoke;
+}
+
+.aside-header {
+  color: #ffffff;
+  padding: 12px;
+  font-size: 14px;
+  background-color: #2fc1da;
+}
+
+.aside ul li {
+  display: block;
+  list-style-type: none;
+  font-size: 11px;
+}
+
+.aside ul li a {
+  display: block;
+  padding: 11px;
+}
+
+.aside ul li a > span {
+  display: block;
+}
+
+.aside ul li a span.aside-icon {
+  width: 15px;
+  display: inline-block;
+}
+
+.aside ul li a span.recent-list {
+  width: 150px;
+  display: inline-block;
+  line-height: 1.5;
+  vertical-align: middle;
+}
+
+.aside ul li a:hover {
+  text-decoration: none;
+}
+
+.aside ul li:hover {
+  background-color: #ffffff;
+}
+
+/* aside end */
+
+/* footer begin */
+.footer-wrapper {
+  background-color: #727272;
+  padding: 1.5em 0;
+  color: white;
+}
+
+.footer ul li:before {
+  content: "•";
+  padding: 7px;
+  color: #d5d5d5;
+}
+
+.footer ul li:first-child:before {
+  content: "";
+  padding: 0px;
+}
+
+.footer ul li {
+  display: inline-block;
+  margin-left: 1em;
+  font-weight: bold;
+  font-size: 11px;
+}
+
+.footer ul li a {
+  color: white;
+}
+
+/* footer end */

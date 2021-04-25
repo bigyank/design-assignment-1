@@ -35,3 +35,27 @@
 }
 
 /* navbar end */
+
+/* aside begin */
+.content-wrapper {
+  padding: 30px 0;
+}
+
+.left-content {
+  width: 195px;
+}
+
+.left-content,
+.right-content {
+  height: 620px;
+}
+
+/* aside end*/
+
+/* footer begin */
+
+.footer-wrapper {
+  width: 100%;
+}
+
+/* footer end */
