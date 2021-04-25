@@ -1,0 +1,83 @@
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.header {
+  font-weight: bold;
+}
+
+.logo {
+  margin: 0 20px 0 auto;
+}
+
+.search-wraper {
+  padding-top: 18px;
+}
+
+.user-name {
+  font-size: 15px;
+  text-align: right;
+  margin-right: auto;
+}
+
+.search-btn {
+  background: url("../images/search-btn.png") no-repeat;
+  color: white;
+  border: none;
+  font-size: 8px;
+  cursor: pointer;
+}
+
+.search-btn:hover {
+  background: url("../images/search-btn-hover.png") no-repeat;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.body-header {
+  font-size: 28px;
+}
+
+.search-bar {
+  font-size: 11px;
+  background-image: url("../images/search-bar.png");
+  padding-left: 10px;
+  text-align: left;
+  outline: none;
+  border: none;
+}
+
+.search-bar:focus {
+  background-image: url("../images/search-bar.png");
+}
+
+.user-menu {
+  list-style: none;
+  margin-right: auto;
+  margin-top: 6px;
+}
+
+.user-menu-list {
+  display: inline;
+  font-size: 13px;
+  padding: 0 6px;
+  font-weight: bold;
+  border-right: 1px solid black;
+}
+
+.user-menu-list:last-child {
+  border-right: none;
+  padding-right: 0;
+}
