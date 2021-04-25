@@ -47,7 +47,7 @@
 
 .left-content,
 .right-content {
-  height: 620px;
+  height: 650px;
 }
 
 /* aside end*/
@@ -59,3 +59,17 @@
 }
 
 /* footer end */
+
+/* center begin */
+.center-wraper {
+  width: 520px;
+  height: 650px;
+  margin-left: 32px;
+  background-color: #ffffff;
+}
+
+.entries-left,
+.entries-right {
+  width: 50%;
+}
+/* center end */
