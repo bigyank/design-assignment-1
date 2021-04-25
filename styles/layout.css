@@ -1,3 +1,4 @@
+/* Header Begin */
 .header-wraper {
   width: 100%;
   background-color: white;
@@ -24,3 +25,13 @@
   width: 268px;
   height: 20px;
 }
+
+/* Header end */
+
+/* navbar begin */
+.navbar-wrapper {
+  width: 100%;
+  background-color: #f5f5f5;
+}
+
+/* navbar end */

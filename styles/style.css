@@ -6,14 +6,16 @@
   float: right;
 }
 
-.clearfix::after {
+.clearfix:after {
   clear: both;
   content: "";
   display: table;
 }
 
+/* Header Begin */
+
 .header {
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .logo {
@@ -81,3 +83,38 @@ a:hover {
   border-right: none;
   padding-right: 0;
 }
+
+/* Header End */
+
+/* navbar begin */
+.navbar-wrapper .navbar ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+.navbar-wrapper .navbar ul li:last-child {
+  margin-right: 0;
+}
+
+.left-navbar {
+  font-size: 13px;
+  padding: 12px 8px;
+}
+
+.right-navbar {
+  font-size: 12px;
+  padding: 12px 0;
+}
+
+.navbar-icon {
+  margin-right: 8px;
+  vertical-align: middle;
+  display: inline;
+}
+
+.request a {
+  display: inline-block;
+  color: #ababab;
+}
+
+/* navbar end */
