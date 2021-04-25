@@ -13,7 +13,7 @@
 .top-header {
   padding-top: 20px;
   background-color: #7dd9e8;
-  height: 70px;
+  height: 68px;
 }
 
 .search-btn {
@@ -71,5 +71,12 @@
 .entries-left,
 .entries-right {
   width: 50%;
+}
+.entries-title {
+  height: 35px;
+}
+
+.entries-body {
+  height: 66px;
 }
 /* center end */
